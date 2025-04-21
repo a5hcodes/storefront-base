@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.body {
+  background-color:#f9f4ef;
+  
+}
+
+.maroon {
+  color: #800020;
+}
