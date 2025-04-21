@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion'
-import { svg } from 'motion/react-client';
 import React, { useState } from 'react'
 
 const Navbar = () => {
@@ -18,7 +17,7 @@ const Navbar = () => {
 
     return (
         <motion.nav
-            className='sticky top-0 z-50 bg-white shadow-sm px-6 py-4'
+            className='sticky top-0 z-50 bg-white shadow-xs px-6 py-4'
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
@@ -27,7 +26,6 @@ const Navbar = () => {
                 <div className='flex justify-between items-center'>
                     <motion.h1
                         className='text-lg md:text-2xl font-bold text-red-950'
-                        whileHover={{ scale: 1.01 }}
                     >
                         Ashok Men's Wear
                     </motion.h1>

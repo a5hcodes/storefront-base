@@ -8,3 +8,8 @@
 .maroon {
   color: #800020;
 }
+
+:root {
+  background-color: #f9f4ef;
+  font-family: "Poppins", sans-serif;
+}
