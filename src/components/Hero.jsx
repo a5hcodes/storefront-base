@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 const Hero = () => {
     return (
-        <section href='#'>
+        <section id='#'>
             <div className='relative  h-[80vh] md:h-[100vh] w-full'>
 
                 {/* MOBILE ONLY Overlay Color */}
@@ -24,10 +24,10 @@ const Hero = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6 }}
                     >
-                        <span className='text-white'>Fine</span> Tailoring
+                        <span className='text-red-950'>Fine</span> <span className='text-red-800'>Tailoring</span>
                     </motion.h1>
                     <motion.p
-                        className='text-xl md:text-2xl text-red-950 max-w-2xl mb-10 mt-5'
+                        className='text-xl md:text-2xl text-gray-800 max-w-2xl mb-10 mt-5'
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ duration: 0.6, delay: 0.2 }}
@@ -35,8 +35,8 @@ const Hero = () => {
                         Crafting elegant menswear with precision and expertise since 1982.
                     </motion.p>
                     <motion.button
-                        className='bg-white text-red-900 font-medium px-8 py-3 rounded-full
-                        hover:bg-red-950 hover:text-white transition-all ease-in-out duration-300 shadow-md'
+                        className='bg-red-950 text-white font-medium px-8 py-3 rounded-full
+                        hover:bg-red-800 hover:text-white transition-all ease-in-out duration-300 shadow-md'
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         initial={{ opacity: 0, y: 20 }}
