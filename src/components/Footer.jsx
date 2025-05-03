@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <section href='#footer'>Footer</section>
+    <div>Footer</div>
   )
 }
 

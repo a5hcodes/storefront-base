@@ -2,8 +2,8 @@ import React from 'react'
 
 const Values = () => {
   return (
-    <section href='#values'>Values</section>
+    <div>Values</div>
   )
 }
 
-export default Values;
+export default Values
